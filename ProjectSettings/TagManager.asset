@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Platform
+  - Enemy
+  - Key
+  - Projectile
   layers:
   - Default
   - TransparentFX
@@ -13,12 +17,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Platforms
+  - Background
+  - Projectiles
+  - Enemies
+  - PlayerInvincible
   - 
   - 
   - 
@@ -40,4 +44,25 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1357621477
+    locked: 0
+  - name: DecorationBackground
+    uniqueID: 3818540763
+    locked: 0
+  - name: Platforms
+    uniqueID: 404197039
+    locked: 0
+  - name: Characters
+    uniqueID: 484358545
+    locked: 0
+  - name: DecorationOverlay
+    uniqueID: 2957635583
+    locked: 0
+  - name: Items
+    uniqueID: 3096521759
+    locked: 0
+  - name: Projectiles
+    uniqueID: 495103555
     locked: 0
