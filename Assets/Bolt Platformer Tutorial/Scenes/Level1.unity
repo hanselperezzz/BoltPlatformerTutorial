@@ -850,39 +850,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 33e5bf86bc5eb8c42a423be6495b68a6, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1644408278 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1784235645598328, guid: 9fab65f3a396eaf4fb2c796172ea03ca,
-    type: 2}
-  m_PrefabInternal: {fileID: 1924731205}
---- !u!114 &1644408279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1644408278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"isListening":false,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"2028eea0-dc45-4815-9ae4-2158971f8654","$version":"A","$type":"Bolt.Start"},{"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"905fa03e-4d55-4a2a-b1cb-2c3a5a393843","$version":"A","$type":"Bolt.Update"}],"title":null,"summary":null,"$version":"A"},"source":"Embed","macro":null}}'
-    _objectReferences: []
---- !u!114 &1644408280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1644408278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1465209106, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
 --- !u!4 &1826852131 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4394984847089220, guid: d040ac796b6271f4180127a84952d130,
@@ -1004,6 +971,11 @@ Prefab:
     - target: {fileID: 4173568434705544, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114280458247240872, guid: 9fab65f3a396eaf4fb2c796172ea03ca,
+        type: 2}
+      propertyPath: _data._json
+      value: '{"nest":{"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"isListening":false,"pan":{"x":0.0,"y":0.0},"zoom":0.6999999,"elements":[{"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"2028eea0-dc45-4815-9ae4-2158971f8654","$version":"A","$type":"Bolt.Start"},{"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"905fa03e-4d55-4a2a-b1cb-2c3a5a393843","$version":"A","$type":"Bolt.Update"}],"title":null,"summary":null,"$version":"A"},"source":"Macro","macro":0}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9fab65f3a396eaf4fb2c796172ea03ca, type: 2}
